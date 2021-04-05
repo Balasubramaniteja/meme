@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+.imagememe > .top {
+  top: 0;
+}
+.imagememe > .bottom {
+  bottom: 0;
+}
+.imagememe {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.imagememe > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(20, 19, 19);
+  letter-spacing: 1px;
+}
+.image {
+  width: 100%;
+}
